@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  --foreground-rgb: 15, 23, 18;
+  --background-start-rgb: 250, 252, 251;
+  --background-end-rgb: 240, 245, 242;
+  --brand-green: 22, 163, 74;
+  --brand-emerald: 16, 185, 129;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: radial-gradient(circle at 50% 0%, #ffffff 0%, #f0fdf4 100%);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Light Mode Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(22, 163, 74, 0.1);
+  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
+}
+
+.glass-emerald {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.glass-card {
+  background: white;
+  border: 1px solid rgba(22, 163, 74, 0.08);
+  box-shadow: 0 10px 40px -20px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.glass-card:hover {
+  border-color: rgba(22, 163, 74, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 25px 50px -25px rgba(22, 163, 74, 0.15);
+}
+
+/* Typography Enhancements */
+.text-glow {
+  text-shadow: 0 0 15px rgba(22, 163, 74, 0.2);
+}
+
+.text-gradient-green {
+  background: linear-gradient(to right, #16a34a, #059669);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Specialized Scanning Animation */
+@keyframes scan {
+  0% { top: 0% }
+  100% { top: 100% }
+}
+
+.animate-scan {
+  animation: scan 2s linear infinite;
+}
+
+/* Layout Utilities */
+.dashboard-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Scrollbar Light */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.5);
+}
+
