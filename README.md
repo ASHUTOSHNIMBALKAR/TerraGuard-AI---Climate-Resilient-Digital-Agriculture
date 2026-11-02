@@ -6,11 +6,10 @@
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Hackathon](https://img.shields.io/badge/Pune%20Agri%20Hackathon-2026-f59e0b?style=for-the-badge&logo=trophy&logoColor=white)
 
 **🌍 Where Digital Innovation Meets Sustainable Farming**
 
-[Live Demo](#) · [Architecture](#-technical-architecture) · [Setup](#-getting-started) · [Features](#-key-features)
+[Architecture](#-technical-architecture) · [Setup](#-getting-started) · [Features](#-key-features)
 
 </div>
 
@@ -143,30 +142,6 @@ graph TD
 
 ---
 
-## 🏆 Hackathon Criteria Alignment
-
-### ✅ 1. Innovativeness
-- **Edge-AI Pathogen Diagnostic**: Real-time crop disease identification (CropNet-v2.1) with no cloud dependency
-- **ESG/Carbon Credit Verification**: Automated carbon sequestration tracking via satellite biomass monitoring
-- **Glass Morphism UI**: Premium dashboard UX with Framer Motion micro-animations
-
-### ✅ 2. Feasibility & Impact
-- **Zero Capex Model**: Leverages satellite imagery and farmer-owned smartphones — no expensive sensors needed
-- **Measurable ROI**: Explicit tracking of yield boost (+22%) and cost savings (\$12k/Ha)
-- **Offline-First**: Edge AI works without internet connectivity in rural areas
-
-### ✅ 3. Technology Used
-- **Modern AI Stack**: Next.js 14, TensorFlow.js for Edge AI, Recharts for data visualization
-- **Geospatial Processing**: Multi-spectral satellite data integrated with IoT mesh networks
-- **Real-time Telemetry**: LoRaWAN mesh network with 14ms latency
-
-### ✅ 4. Scalability & Market Potential
-- **Global Export Compliance**: Predicts "Grade A1" export probability for EU/US markets
-- **Software-Defined Infrastructure**: Platform scales to millions of hectares via satellite imagery
-- **API-First Architecture**: Designed to integrate with existing farm machinery and public datasets
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -241,15 +216,6 @@ terraguard-ai/
 
 ---
 
-## 👨‍💻 Developer
-
-**Ashutosh Nimbalkar**
-
-Developed for the **Pune International Agri Hackathon 2026**
-
-> *"Where digital innovation meets sustainable farming."*
-
----
 
 ## 📄 License
 
